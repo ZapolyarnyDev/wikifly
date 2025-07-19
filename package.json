@@ -1,5 +1,5 @@
 {
-"name": "wikifly-ts",
+  "name": "wikifly-ts",
   "version": "1.0.0",
   "description": "A lightweight JavaScript & TypeScript wrapper for working with Wikipedia",
   "main": "dist/index.js",
@@ -9,12 +9,23 @@
     "start": "ts-node src/index.ts"
   },
   "license": "MIT",
-  "keywords": ["wikipedia", "typescript", "wiki", "api", "parser", "javascript"],
-  "author": "",
+  "keywords": [
+    "wikipedia",
+    "typescript",
+    "wiki",
+    "api",
+    "parser",
+    "javascript"
+  ],
+  "author": "ZapolyarnyDev",
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^24.0.15",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0"
   }
 }
