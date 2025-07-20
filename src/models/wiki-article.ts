@@ -6,6 +6,6 @@ export interface WikiArticle {
     readonly imageUrl?: string,
     readonly articleUrl: string,
     readonly languageCode: string,
-    readonly lastModified: string,
+    readonly lastModified?: string,
     readonly articleContent?: WikiArticleSection[]
 }

@@ -20,6 +20,8 @@
   "author": "ZapolyarnyDev",
   "type": "commonjs",
   "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/cheerio": "^0.22.35",
     "@types/node": "^24.0.15",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
