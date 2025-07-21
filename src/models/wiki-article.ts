@@ -7,5 +7,5 @@ export interface WikiArticle {
     readonly articleUrl: string,
     readonly languageCode: string,
     readonly lastModified?: string,
-    readonly articleContent?: WikiArticleSection[]
+    readonly articleContent: WikiArticleSection[]
 }
