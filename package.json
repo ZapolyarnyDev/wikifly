@@ -1,9 +1,14 @@
 {
-  "name": "wikifly-ts",
+  "name": "wikifly",
   "version": "1.0.0",
-  "description": "A lightweight JavaScript & TypeScript wrapper for working with Wikipedia",
+  "description": "A lightweight JavaScript & TypeScript wrapper for searching and fetching Wikipedia articles",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZapolyarnyDev/wikifly"
+  },
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
@@ -12,11 +17,11 @@
   "license": "MIT",
   "keywords": [
     "wikipedia",
-    "typescript",
     "wiki",
     "api",
     "parser",
-    "javascript"
+    "JavaScript",
+    "TypeScript"
   ],
   "author": "ZapolyarnyDev",
   "type": "commonjs",
