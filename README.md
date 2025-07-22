@@ -6,6 +6,11 @@
   </a>
 </p>
 
+## 🌐 Language
+
+- [English](README.md)
+- [Русский](README.ru.md)
+
 ## 👀 About library
 A lightweight JavaScript & TypeScript wrapper for searching and fetching Wikipedia articles
 
@@ -75,6 +80,6 @@ foo();
 
 ## 📃 License
 
-Copyright (c) 2025 ZapolyarnyDev
+&copy; 2025 ZapolyarnyDev
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
